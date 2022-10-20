@@ -85,6 +85,13 @@ nav li:hover {
     width: 100%;
 }
 
+.img_slider {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .slider_btn {
     position: absolute;
     width: 40px;
