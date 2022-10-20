@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.content {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px 0 50px;
+}
+
+h1 {
+    font-family: 'Node to Nowhere', sans-serif;
+    color: #FFF;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+h1 span {
+    color: #5BCF8F;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+nav li:hover {
+    color: #5BCF8F;
+    transition: all .3s ease-in-out;
+}
+
+.content {
+    width: 80%;
+    height: 100vh;
+}
+
+
+.slider-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 6px rgba(27,71,217,0.7);
+    -webkit-box-shadow: 0px 0px 5px 6px rgba(27,71,217,0.7);
+    -moz-box-shadow: 0px 0px 5px 6px rgba(27,71,217,0.7);
+}
+
+.slider {
+    display: flex;
+    width: 300%;
+    height: 600px;
+    margin-left: -100%;
+}
+
+.slider_section {
+    width: 100%;
+}
+
+.slider_btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(50, 29, 141);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.btn_left {
+    left: 10px;
+}
+
+.btn_right {
+    right: 10px;
+}
+
+.slider_btn:hover {
+    background-color: rgba(255, 255, 255, .8);
+}
