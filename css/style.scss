@@ -8,6 +8,7 @@ $main: #1ab188;
 $main-light: lighten($main,5%);
 $main-dark: darken($main,5%);
 
+
 $gray-light: #a0b3b0;
 $gray: #ddd;
 
@@ -191,3 +192,7 @@ textarea {
   margin-top:-20px;
   text-align:right;
 }
+.login {margin-top:-20px;
+  text-align:right;
+  }
+
