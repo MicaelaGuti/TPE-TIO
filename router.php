@@ -56,11 +56,9 @@ switch ($params[0]) {
         $id = $params[1];
         $teamController->deleteTeam($id);
         break;
-    case 'formEditTeam':
-        $teamController = new TeamController();
-        $id = $params[1];
-        $teamController->showFormEditTeam($id);
-        break;
+   
+    
+    
     case 'editTeam':
         $teamController = new TeamController();
         $id = $params[1];
